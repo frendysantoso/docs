@@ -60,6 +60,11 @@
     {
       "group": "Dokumentasi",
       "pages": [
+        "dokumentasi/seagame",
+        "dokumentasi/endgames",
+        "dokumentasi/opiion",
+        "dokumentasi/gamesq",
+        "dokumentasi/vigames",
         "dokumentasi/mgames"
       ]
     },
