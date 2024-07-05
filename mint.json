@@ -58,6 +58,12 @@
       ]
     },
     {
+      "group": "Dokumentasi",
+      "pages": [
+        "dokumentasi/mgames",
+      ]
+    },
+    {
       "group": "Essentials",
       "pages": [
         "essentials/markdown",
