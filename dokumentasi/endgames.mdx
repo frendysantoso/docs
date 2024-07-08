@@ -1,32 +1,172 @@
 ---
 title: 'End Games'
-description: 'hello'
+description: 'End Games adalah website Top Up Games dengan tampilan & fitur yang telah dikembangkan oleh app.enivay.
+
+Selain dilengkapi dengan fitur pembelian Guest & sistem pembayaran menggunakan saldo akun, End Games sendiri memiliki dashboard dengan tampilan yang lebih mewah dibandingkan web topup games lainnya.  '
 icon: 'code'
 ---
 
-## Kelola produk
 
-#### Tambah Produk
+#### Login Admin
 
-Cara menambah produk di end games.
-1. apa
-2. gpp
-3. y
+Berikut cara untuk login sebagai admin : 
 
-#### Edit Produk
+1. Silahkan tambahkan "/admin/login" pada ujung link website seperti berikut.
+2. Masukkan "Username" & "Password" akun admin kamu.
+    - Username : Masukkan username akun kamu.
+    - Password : Isi dengan password akun kamu.
+3. Jika sudah klik "Login".
 
-Cara menambah produk di end games.
-1. apa
-    <img width="100%" src="/images/checks-passed.png" />
-    - apa
-2. gpp
-3. y
 
-## Kelola Metode
+#### Konfigurasi Umum
 
-#### Tambah Metode
+Tab Umum pada menu Konfigurasi merupakan menu untuk melakukan konfigurasi seperti mengganti Nama Website, Judul Halaman Utama, Icon Website, Logo, Author, Keywords, Deskripsi, & Lisensi.
 
-Cara menambah produk di end games.
-1. apa
-2. gpp
-3. y
+Berikut langkah untuk melakukan Konfigurasi Umum : 
+
+1. Pada halaman dashboard admin, silahkan klik menu "Konfigurasi" pada menu utama seperti berikut.
+2. klik tab "Umum".
+3. Silahkan edit kolom konfigurasi sebagai berikut :
+    - Nama Website : Isi dengan nama website kamu.
+    - Judul Halaman Utama : Isi dengan judul yang kamu inginkan.
+    - Icon : Isi dengan icon website kamu dengan ukuran 256 x 256 px.
+    - Logo Website : Pilih atau masukkan logo website kamu.
+    - Author : Isi dengan nama website kamu.
+    - Keywords : Isi dengan keywords atau kata kunci yang sesuai dengan website kamu.
+    - Deksripsi : Isi dengan deksripsi singkat tentang website kamu.
+    - Lisensi Enivay : Lisensi ini digunakan untuk melakukan Validasi ID player games. Untuk mendapatkan lisensi bisa hubungi +62 856 5400 8642.
+4. Jika sudah klik "Simpan".
+5. Jika data berhasil disimpan, maka akan muncul pemberitahuan pada pojok kanan atas seperti berikut.
+ 
+
+#### Konfigurasi Tripay 
+
+Tab Tripay pada menu Konfigurasi merupakan menu untuk mengelola sistem pembayaran website kamu dengan sistem Tripay.
+
+Berikut langkah untuk Konfigurasi Tripay : 
+
+1. Pada halaman dashboard admin, silahkan klik menu "Konfigurasi" pada menu utama seperti berikut.
+2. Klik tab "Tripay".
+3. Silahkan edit kolom konfigurasi yang diinginkan dengan cara memasukkan "Api Key", "Private Key" & "Kode Merchant" kamu.
+4. Jika sudah klik "Simpan".
+5. Jika data berhasil disimpan, maka akan muncul pemberitahuan pada pojok kanan atas seperti berikut.
+
+
+#### Cara membuat Merchant di Tripay
+
+Untuk membuat merchant atau menambah merchant di Tripay, kamu dapat menggunakan cara berikut : 
+
+1. Login tripay menggunakan akun kamu di website tripay.co.id atau klik link : https://tripay.id/login
+2. Masuk ke menu "Merchant".
+3. Klik "Tambah Merchant".
+4. Isi kelengkapan data sebagai berikut : 
+    - Nama Merchant : Isi dengan nama website/aplikasi kamu.
+    - Logo : Isi dengan logo website/aplikasi kamu menggunakan format jpg, jpeg, png dengan ukuran 200 x 50px.
+    - URL Website : Isi dengan URL atau link website kamu
+    - Deksripsi : Isi detail produk/layanan yang di sediakan di website/aplikasi kamu. Jika URL website kamu memerlukan akses data login, sertakan juga data login di kolom deskripsi.
+    - URL Callback : Isi dengan URL Callback yang tertera di kolom Konfigurasi Tripay pada website kamu, atau klik link http://192.168.100.2/endgames/public/sistem/handle/callback/tripay
+    - Whitelist IP : Isi dengan alamat IPv4 dan IPv6 dari server hosting kamu. Jika IP lebih dari 1, pisahkan dengan koma. Contoh: 192.168.1.1,192.168.1.2
+5. Jika sudah klik "Simpan".
+
+
+#### Konfigurasi CekMutasi
+
+Tab Cekmutasi pada menu Konfigurasi merupakan menu untuk memeriksa transaksi pada rekening kamu tanpa harus login internet banking
+
+Berikut langkah untuk konfigurasi digiflazz: 
+
+1. Pada halaman dashboard admin, silahkan klik menu "Konfigurasi" pada menu utama seperti berikut.
+2. Klik tab "Cekmutasi".
+3. Silahkan masukkan Api Key & Api Signature kamu.
+4. ika sudah klik "Simpan".
+5. Jika data berhasil disimpan, maka akan muncul pemberitahuan pada pojok kanan atas seperti berikut
+
+
+#### Konfigurasi Digiflazz
+
+Tab Digiflazz pada menu Konfigurasi merupakan menu untuk melakukan konfigurasi layanan website kamu.
+
+Berikut langkah untuk konfigurasi digiflazz
+
+1. Pada halaman dashboard admin, silahkan klik menu "Konfigurasi" pada menu utama seperti berikut.
+2. klik tab "Digiflazz".
+3. Silahkan masukkan username & production key kamu ke kolom "Username", & "Production Key".
+4. Jika sudah klik "Simpan".
+5. Jika data berhasil disimpan, maka akan muncul pemberitahuan pada pojok kanan atas seperti berikut.
+ 
+
+#### Konfigurasi Fonnte
+
+Tab Fonnte pada menu Konfigurasi merupakan menu untuk melakukan konfigurasi notifikasi otomatis di website kamu.
+
+Berikut langkah untuk melakukan Konfigurasi Fonnte : 
+
+1. Pada halaman dashboard admin, silahkan klik menu "Konfigurasi" pada menu utama seperti berikut.
+2. Klik tab "Fonnte".
+3. Masukkan token fonnte kamu.
+4. Jika sudah klik "Simpan".
+5. Jika data berhasil disimpan, maka akan muncul pemberitahuan pada pojok kanan atas seperti berikut.
+
+
+## Kelola Admin
+
+Menu Admin merupakan menu untuk mengelola akun admin website kamu berupa tambah, edit & hapus.
+
+<Tabs>
+  <Tab title="Tambah Admin">
+1. Klik "Admin" pada halaman admin.
+2. Klik "Tambah" pada kolom Akun Administrator
+3. Silahkan lengkapi data sebagai berikut :
+    - Username : Isi dengan Username akun yang ingin ditambahkan sebagai admin
+    - Password : Isi dengan Password akun.
+4. Jika sudah klik "Simpan".
+  </Tab>
+  <Tab title="Edit Admin">
+1. Klik "Admin" pada halaman admin.
+2. Klik "Edit" pada data akun admin yang ingin di edit.
+3. Silahkan edit data sebagai berikut :
+    - Username : Otomatis, tidak dapat diganti.
+    - Status : Jika akun ingin dijadikan sebagai admin maka pilih "On", jika akun tidak ingin dijadikan admin pilih 'Off'.
+    - Password : Silahkan klik "Reset Password" jika kamu lupa password akun kamu.
+4.  sudah klik "Simpan".
+  </Tab>
+  <Tab title="Hapus Admin">
+1. Klik "Admin" pada halaman admin.
+2. Klik "Hapus" pada data akun admin yang ingin di hapus.
+3. Klik "Tetap Hapus"
+  </Tab>
+</Tabs>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
