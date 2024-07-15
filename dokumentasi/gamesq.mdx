@@ -6,4 +6,236 @@ Games Q dilengkapi dengan fitur pembelian Guest, yang dimana pengguna atau user 
 icon: 'code'
 ---
 
-fgsiufbhjfbsf
+#### Login Admin
+
+Berikut cara untuk login sebagai admin : 
+
+1. Silahkan tambahkan "/admin" pada ujung link website seperti berikut. 
+2. Masukkan "Username" & "Password" akun admin kamu.
+    - Username : Masukkan username akun kamu.
+    - Password : Isi dengan password akun kamu.
+3. Jika sudah klik "Log In".
+
+
+#### Konfigurasi Umum
+
+
+Tab Umum pada menu Konfigurasi merupakan menu untuk melakukan konfigurasi seperti mengganti Icon Website, Logo (White & Color), Judul Website, Nama Website, Author, Keywords, Deskripsi, Pembayaran Sal
+
+Berikut langkah untuk melakukan Konfigurasi Umum : 
+
+1. Klik "Konfigurasi" pada menu admin.
+2. Klik tab "Umum".
+3. Silahkan edit kolom konfigurasi sebagai berikut : 
+
+    - Icon : Isi dengan icon website kamu dengan ukuran 512 x 512 px 
+    - Logo Website 
+        * Logo White : Pilih atau masukkan logo putih website kamu.
+        * Logo Color : Pilih atau masukkan logo berwarna website kamu.
+    - Judul : Isi dengan judul webiste kamu.
+    - Nama Web : Isi dengan nama website kamu.
+    - Author : Isi dengan nama website kamu.
+    - Keywords : Isi dengan keywords atau kata kunci yang sesuai dengan website kamu.
+    - Deksripsi : Isi dengan deksripsi singkat tentang website kamu.
+    - Pembayaran Saldo : Pilih "Ya", jika website kamu ingin menggunakan pembayaran via saldo. Pilih "Tidak" jika website kamu tidak ingin menggunakan pembayaran via saldo.
+    - License Api Enivay : Lisensi ini digunakan untuk melakukan Validasi ID player games. Untuk mendapatkan lisensi bisa hubungi +62 856 5400 8642.
+
+4. Jika sudah klik "Simpan".
+
+
+#### Konfigurasi ApiGames
+
+
+Tab ApiGames pada menu Konfigurasi merupakan menu untuk melakukan konfigurasi layanan seperti get produk atau tambah layanan ke website kamu.
+
+Berikut langkah untuk melakukan Konfigurasi Api Games : 
+
+1. Klik "Konfigurasi" pada menu admin.
+2. Klik tab "Api Games".
+3. Silahkan edit kolom konfigurasi sebagai berikut : 
+    - Merchant ID : Masukkan Merchant ID ApiGames kamu.
+    - Secret Key : Masukkan Secret Key ApiGames kamu.
+4. Jika sudah klik "Simpan".
+
+**Note !!**
+
+1. Untuk mendapatkan "Merchant ID" & "Secret Key", kamu bisa login ke akun ApiGames kamu atau buat akun ApiGames kamu di https://member.apigames.id/login. 
+2. Kemudian masuk ke menu "Pengaturan" & pilih menu "Secret Key" seperti berikut.
+3. Salin "Merchant ID" & "Secret Key" seperti berikut.
+
+
+#### Konfigurasi VIP Reseller
+
+Tab VIP Reseller pada menu Konfigurasi merupakan menu untuk melakukan konfigurasi layanan seperti get produk atau tambah layanan ke website kamu.
+
+Berikut langkah untuk melakukan Konfigurasi VIP Reseller : 
+
+1. Klik "Konfigurasi" pada menu admin.
+2. Klik tab "Api Games".
+3. Silahkan edit kolom konfigurasi yang diinginkan sebagai berikut : 
+    - Api ID : Masukkan Merchant ID ApiGames kamu.
+    - Api Key : Masukkan Secret Key ApiGames kamu.
+4. Jika sudah klik "Simpan".
+
+**Note !!**
+
+1. Untuk mendapatkan "Api ID" & "Api Key", kamu bisa login ke akun ApiGames kamu atau buat akun ApiGames kamu di https://member.apigames.id/login.
+2. Kemudian masuk ke menu "Edit Profile".
+3. Klik menu "Pengaturan Api".
+4. Salin "Api ID" & "API Key" seperti berikut.
+
+
+#### Konfigurasi Tripay
+
+Tab Tripay pada menu Konfigurasi merupakan menu untuk mengelola sistem pembayaran website kamu dengan sistem Tripay.Berikut langkah untuk Konfigurasi Tripay : 
+
+1. Klik "Konfigurasi" pada menu admin.
+2. Klik tab "Tripay".
+3. Silahkan edit kolom konfigurasi yang diinginkan dengan cara memasukkan "Api Key", "Private Key" & "Kode Merchant" kamu. 
+4. Jika sudah klik "Simpan".
+
+**Note !!**
+
+Untuk mendapatkan api key, private key, dan kode merchant kamu bisa klik "Edit" pada merchant kamu. Kemudian salin "Api Key", Private Key", & "Kode Merchant" berikut.
+
+
+#### Cara membuat Merchant di Tripay
+
+Untuk membuat merchant atau menambah merchant di Tripay, kamu dapat menggunakan cara berikut : 
+
+1. Login tripay menggunakan akun kamu di website tripay.co.id atau klik link :  https://tripay.id/login
+2. Masuk ke menu "Merchant".
+3. Klik "Tambah Merchant".
+4. Isi kelengkapan data sebagai berikut : 
+    - Nama Merchant : Isi dengan nama website/aplikasi kamu.
+    - Logo : Isi dengan logo website/aplikasi kamu menggunakan format jpg, jpeg, png dengan ukuran 200 x 50px.
+    - URL Website : Isi dengan URL atau link website kamu
+    - Deksripsi : Isi detail produk/layanan yang di sediakan di website/aplikasi kamu. Jika URL website kamu memerlukan akses data login, sertakan juga data login di kolom deskripsi.
+    - URL Callback : Isi dengan URL Callback yang tertera di kolom Konfigurasi Tripay, atau klik link  http://192.168.100.3/gamesq/public/sistem/callback/tripay
+    - Whitelist IP : Isi dengan alamat IPv4 dan IPv6 dari server hosting kamu. Jika IP lebih dari 1, pisahkan dengan koma. Contoh: 192.168.1.1,192.168.1.2
+5. Jika sudah klik "Simpan".
+
+**Note !!**
+
+Pembuatan merchant memerlukan peninjauan sebelum Merchant dapat digunakan.
+
+Bila merchant tidak memiliki halaman landing page dan mengharuskan untuk login, mohon sertakan data login berupa *account dummy* (Akun user biasa bukan akun admin) di kolom deskripsi, agar admin dapat melakukan peninjauan.
+
+
+#### Konfigurasi DuitKu
+
+Tab VIP Reseller pada menu Konfigurasi merupakan menu untuk mengelola sistem pembayaran website kamu dengan sistem Tripay.
+
+Berikut langkah untuk Konfigurasi Tripay : 
+
+1. Klik "Konfigurasi" pada menu admin di halaman admin.
+2. Klik tab "Tripay".
+3. Silahkan masukkan "Api Key", Private Key", & "Kode Merchant".
+4. Jika sudah klik "Simpan".
+
+**Note !!**
+
+Untuk mendapatkan api key, private key, dan kode merchant kamu bisa klik "Edit" pada merchant kamu. Kemudian salin "Api Key", Private Key", & "Kode Merchant" berikut.
+
+
+#### Kelola Akun Admin
+
+Menu Akun Admin merupakan menu untuk mengelola akun admin di website kamu. Pada menu ini kamu dapat mengelola akun admin seperti menambah admin, edit admin & hapus.
+
+Berikut langkah untuk mengelola akun admin : 
+
+<Tabs>
+  <Tab title="Tambah Admin">
+1. Klik "Akun Admin" pada menu admin.
+2. Klik "Tambah" pada kolom Akun Administrator 
+3. Silahkan lengkapi data sebagai berikut : 
+    - Nama : Isi dengan nama pengguna.
+    - Username : Isi dengan Username akun yang ingin ditambahkan sebagai admin.
+    - Password : Isi dengan Password akun.
+4. Jika sudah klik "Simpan".
+  </Tab>
+  <Tab title="Edit Admin">
+1. Klik "Akun Admin" pada menu admin.
+2. Klik "Edit" pada data akun admin yang ingin di edit. 
+3. Silahkan adit data sebagai berikut : 
+    - Nama : Isi atau edit dengan nama pengguna.
+    - Username : Default (Tidak dapat di ganti / edit)
+    - Password : Silahkan klik tombol "Reset Password" jika admin mengalami lupa password.
+4. Jika sudah klik "Simpan".
+  </Tab>
+  <Tab title="Hapus Admin">
+1. Klik "Akun Admin" pada menu admin.
+2. Klik "Hapus" pada data akun admin yang ingin di hapus. 
+3. Klik "Tetap Hapus"
+4. Jika data berhasil di hapus, maka akan muncul pemberitahuan seperti berikut.
+  </Tab>
+</Tabs>
+
+
+#### Kelola Akun Member
+
+Menu Akun Member merupakan menu untuk mengelola akun admin di website kamu. Pada menu ini kamu dapat mengelola akun member seperti edit member & hapus.
+
+Berikut langkah untuk mengelola akun admin : 
+
+<Tabs>
+  <Tab title="Edit Member">
+1. Klik "Akun Member" pada menu admin.
+2. Klik "Edit" pada data akun member yang ingin di edit. 
+3. Silahkan adit data sebagai berikut : 
+    - Nama Depan : Isi atau edit dengan nama depan member.
+    - Nama Belakang : Isi atau edit dengan nama belakang member.
+    - Nomor Whatsapp : Default (Tidak dapat di ganti atau edit).
+    - Saldo : Isi dengan saldo member jika ada, jika tidak ada isi dengan 0.
+    - Level : Silahkan pilih level sebagai berikut.
+        * Member : Jika member hanya mendaftar sebagai member.
+        * Reseller : Jika member melakukan upgrade akun menjadi reseller untuk mendapatkan harga termurah.
+        * VIP : Jika member melakukan upgrade akun menjadi reseller untuk mendapatkan harga lebih terjangkau.
+    - Status : Pilih "On" jika member masih aktif. Pilih "Off" jika member telah tidak aktif.
+    - Verifikasi : Pilih "Ya" jika akun member telah melakukan verifikasi OTP. Pilih "Tidak" jika akun belum melakukan verifikasi OTP.
+4. Jika sudah klik "Simpan".
+  </Tab>
+  <Tab title="Hapus Member">
+1. Klik "Akun Member" pada menu admin.
+2. Klik "Hapus" pada data akun member yang ingin di hapus. 
+3. Klik "Tetap Hapus"
+4. Jika data berhasil di hapus, maka akan muncul pemberitahuan seperti berikut.
+  </Tab>
+</Tabs>
+
+
+#### Kelola Pembelian
+
+Kelola Pembelian merupakan menu untuk melihat seluruh data pembelian dari seluruh member di website kamu. Pada menu Kelola Pembelian kamu dapat melakukan edit data pesanan & menghapus data pesanan.Berikut langkah untuk mengelola pembelian : 
+
+<Tabs>
+  <Tab title="Edit Pesanan">
+1. Klik menu "Kelola Pembelian" pada menu admin.
+2. Klik menu "Edit" pada kolom pembelian yang ingin di edit.
+3. Silahkan edit data pembelian sebagai berikut : 
+    - Order ID : Default (Tidak dapat di edit).
+    - Nomor WhatsApp : Otomatis terisi dengan nomor whatsapp member.
+    - Produk : Otomatis terisi dengan produk yang dibeli oleh user, namun dapat di edit atau diganti.
+    - User ID : Isi atau ganti sesuai dengan User ID user.
+    - Zone/Server ID : Isi atau ganti sesuai dengan Zone/Server ID user.
+    - Harga : Otomatis terisi sesuai dengan produk yang dibeli.
+    - Status : Dapat diisi sebagai berikut.
+        * Pending : Pesanan belum dibayar / menunggu pembayaran
+        * Processing : Pesanan dalam proses oleh provider / manual
+        * Success : Pesanan telah berhasil diproses
+        * Canceled : Pesanan gagal diproses
+        * Expired : Pesanan gagal / expired
+    - Payment Name : Dapat diisi dengan atas nama pembeli / member atau bisa diisi dengan atas nama pemilik rekening.
+    - Payment Code : Dapat diisi dengan atas nama kode pembayaran atau bisa diisi dengan nomor rekening / nomor virtual account.
+4. Jika sudah klik "Simpan"..
+  </Tab>
+  <Tab title="Hapus Pembelian">
+1. Klik menu "Kelola Pembelian" pada menu admin.
+2. Klik menu "Hapus" pada kolom pembelian yang ingin di hapus.
+3. Klik "Tetap Hapus".
+4. Jika data berhasil di hapus, maka akan muncul pemberitahuan seperti berikut.
+  </Tab>
+</Tabs>
+
+
+#### Mark Harga
