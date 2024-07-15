@@ -1,4 +1,175 @@
 ---
 title: 'Opiion'
-description: 'Description of your new file.'
+
+description: 'Opiion adalah website Top Up Games yang memiliki fitur sangat lengkap, semua fungsi dapat diatur melalui halaman administrator. 
+
+Opiion dilengkapi dengan fitur pembelian Guest, yang dimana pengguna atau user dapat bertransaksi tanpa harus login. Opiion juga dilengkapi sistem pembayaran menggunakan saldo akun.'
+icon: 'code'
 ---
+
+
+#### Login Admin
+
+Berikut cara untuk login sebagai admin : 
+
+1. Silahkan klik menu "Login" pada pojok kanan atas.
+2. Masukkan "Username" & "Password" akun admin kamu.
+Username : Masukkan username akun kamu.
+Password : Isi dengan password akun kamu.
+3. Jika sudah klik "Login".
+
+
+#### Konfigurasi Umum
+
+Tab Umum pada menu Konfigurasi merupakan menu untuk melakukan konfigurasi seperti mengganti Nama Website, Icon Website, Logo, Author, Keywords, Deskripsi, & Lisensi.
+
+Berikut langkah untuk melakukan Konfigurasi Umum : 
+
+1. Klik "Konfigurasi" pada menu admin.
+2. Klik tab "Umum".
+3. Silahkan edit kolom konfigurasi sebagai berikut : 
+    - Nama Website : Isi dengan nama website kamu.
+    - Icon : Isi dengan icon website kamu dengan ukuran 512 x 512 px 
+    - Logo Website : Pilih atau masukkan logo website kamu.
+    - Author : Isi dengan nama website kamu.
+    - Keywords : Isi dengan keywords atau kata kunci yang sesuai dengan website kamu.
+    - Deksripsi : Isi dengan deksripsi singkat tentang website kamu.
+    - License Api Enivay : Lisensi ini digunakan untuk melakukan Validasi ID player games. Untuk mendapatkan lisensi bisa hubungi +62 856 5400 8642.
+4. Jika sudah klik "Simpan".
+5. Jika data berhasil disimpan, maka akan muncul popup seperti berikut.
+
+
+#### Konfigurasi Tripay
+
+Tab Tripay pada menu Konfigurasi merupakan menu untuk mengelola sistem pembayaran website kamu dengan sistem Tripay.
+
+Berikut langkah untuk Konfigurasi Tripay : 
+
+1. Klik "Konfigurasi" pada menu admin.
+2. Klik tab "Tripay".
+3. Silahkan edit kolom konfigurasi yang diinginkan dengan cara memasukkan "Api Key", "Private Key" & "Kode Merchant" kamu. 
+4. Jika sudah klik "Simpan".
+5. Jika data berhasil disimpan, maka akan muncul popup seperti berikut.
+
+Note !!
+
+Untuk mendapatkan api key, private key, dan kode merchant kamu bisa klik "Edit" pada merchant kamu. Kemudian salin "Api Key", Private Key", & "Kode Merchant" berikut.
+
+
+#### Cara membuat Merchant di Tripay
+
+Untuk membuat merchant atau menambah merchant di Tripay, kamu dapat menggunakan cara berikut : 
+
+1. Login tripay menggunakan akun kamu di website tripay.co.id atau klik link :  https://tripay.id/login
+2. Masuk ke menu "Merchant".
+3. Klik "Tambah Merchant".
+4. Isi kelengkapan data sebagai berikut : 
+    - Nama Merchant : Isi dengan nama website/aplikasi kamu.
+    - Logo : Isi dengan logo website/aplikasi kamu menggunakan format jpg, jpeg, png dengan ukuran 200 x 50px.
+    - URL Website : Isi dengan URL atau link website kamu
+    - Deksripsi : Isi detail produk/layanan yang di sediakan di website/aplikasi kamu. Jika URL website kamu memerlukan akses data login, sertakan juga data login di kolom deskripsi.
+    - URL Callback : Isi dengan URL Callback yang tertera di kolom Konfigurasi Tripay, atau klik link  http://192.168.100.3/gamesq/public/sistem/callback/tripay
+    - Whitelist IP : Isi dengan alamat IPv4 dan IPv6 dari server hosting kamu. Jika IP lebih dari 1, pisahkan dengan koma. Contoh: 192.168.1.1,192.168.1.2
+5. Jika sudah klik "Simpan".
+
+Note !!
+Pembuatan merchant memerlukan peninjauan sebelum Merchant dapat digunakan.
+
+Bila merchant tidak memiliki halaman landing page dan mengharuskan untuk login, mohon sertakan data login berupa *account dummy* (Akun user biasa bukan akun admin) di kolom deskripsi, agar admin dapat melakukan peninjauan.
+
+
+#### Konfigurasi Digiflazz
+
+Tab Digiflazz pada menu Konfigurasi merupakan menu untuk melakukan konfigurasi layanan website kamu.
+
+Berikut langkah untuk konfigurasi digiflazz: 
+
+1. Klik "Konfigurasi" pada halaman admin.
+2. Klik tab "Digiflazz".
+3. Silahkan masukkan username & production key kamu ke kolom "Username", & "Production Key". 
+4. Jika sudah klik "Simpan".
+5. Jika data berhasil disimpan, maka akan muncul popup seperti berikut.
+
+Note !!
+
+Untuk mendapatkan username & production key, kamu harus memiliki akun terlebih dahulu di aplikasi atau website digiflazz. 
+
+Berikut cara untuk mendapatkan username & production key di Digiflazz : 
+
+1. Masuk ke website Digiflazz menggunakan akun kamu.
+2. Masuk ke menu "Atur Koneksi".
+3. Pada pilihan Pengaturan Koneksi silahkan klik "Atur" pada menu API.
+4. Silahkan salin "Username" yang tertera di Informasi Pengguna.
+5. Untuk mendapatkan "Production Key" silahkan klik "Tampilkan Production Key" kemudian pilih metode untuk mengirimkan kode OTP.
+
+
+#### Konfigurasi Fonnte
+
+Berikut langkah untuk melakukan Konfigurasi Fonnte : 
+
+1. Klik "Konfigurasi" pada menu admin.
+2. Klik tab "Fonnte".
+3. Silahkan ikuti panduan yang tertera. 
+4. Paste / tempel token ke kolom token di web kamu seperti berikut.
+5. Jika sudah klik "Simpan".
+6. Jika data berhasil disimpan, maka akan muncul popup seperti berikut.
+
+Note !!
+Untuk mendapatkan token fonnte, kamu harus memiliki akun terlebih dahulu di aplikasi atau website fonnte. 
+
+Berikut cara untuk mendapatkan token di Fonnte : 
+
+**Buat Akun**
+
+1. Silahkan login ke web Fonnte, jika belum punya akun bisa registrasi disini
+2. Lalu masuk ke menu Device.
+3. Lalu klik Add Device untuk menambahkan Whatsapp.
+4. Silahkan isi form berikut, jika sudah klik "Add Device".
+5. Jika sudah silahkan klik Connect untuk menghubungkan Whatsapp.
+6. Silahkan Order paket untuk menghilangkan Copryright pada pesan.
+
+**Copy / Salin Token**
+
+1. Silahkan login ke web Fonnte.
+2. Lalu masuk ke menu Device.
+3. Klik "Token" pada device kamu, maka token akan otomatis ter-copy / ter-salin
+4. Paste / tempel token ke kolom token di web kamu seperti berikut.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
