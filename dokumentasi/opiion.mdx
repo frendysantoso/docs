@@ -458,7 +458,7 @@ Menu Pembelian merupakan menu untuk melihat seluruh data pembelian dari seluruh 
 Berikut langkah untuk mengelola pembelian : 
 
 <Tabs>
-  <Tab title="Tambah Gambar">
+  <Tab title="Edit Pembelian">
 1. Klik menu "Pembelian" pada menu admin.
 2. Klik menu "Edit" pada kolom pembelian yang ingin di edit.
 3. Silahkan edit data pembelian sebagai berikut : 
@@ -488,20 +488,265 @@ Berikut langkah untuk mengelola pembelian :
       *Canceled : Pesanan gagal diproses
 
       *Expired : Pesanan gagal / expired
-      
+
     - Catatan : Otomatis terisi sesuai dengan produk yang dibeli.
     - Tipe Pembayaran : Otomatis terisi sesuai dengan produk yang dibeli.
     - Data Pembayaran : Otomatis terisi sesuai dengan produk yang dibeli.
 4. Jika sudah klik "Simpan".
 5. Jika data berhasil diimpan, maka akan muncul pemberitahuan seperti berikut.
   </Tab>
-  <Tab title="Hapus Gambar">
+  <Tab title="Hapus Pembelian">
 1. Klik menu "Pembelian" pada menu admin.
 2. Klik menu "Hapus" pada kolom pembelian yang ingin di hapus.
 3. Klik "Tetap Hapus".
 4. Jika data berhasil di hapus, maka akan muncul pemberitahuan seperti berikut.
   </Tab>
 </Tabs>
+
+
+#### Kelola Isi Saldo
+
+Kelola Isi Saldo merupakan menu untuk melihat seluruh data topup saldo dari seluruh member di website kamu. Pada menu Kelola Saldo kamu dapat melakukan edit data saldo & menghapus data pesanan.
+
+Berikut langkah untuk mengelola saldo : 
+
+<Tabs>
+  <Tab title="Edit Saldo">
+1. Klik menu "Isi Saldo" pada menu admin.
+2. Klik menu "Edit" pada kolom data saldo yang ingin di edit.
+3. Silahkan edit data pembelian sebagai berikut : 
+    - Username : Otomatis terisi dengan username member yang melakukan pembelian.
+    - ID Transaksi : Default (Tidak dapat di edit).
+    - Metode : Otomatis terisi sesuai dengan metode isi saldo yang dipilih.
+    - Jumlah : Sesuai dengan nominal topup yang diisi oleh member.
+    - Nomor WhatsApp : Otomatis terisi dengan nomor whatsapp member.
+    - Biaya Admin : Isi dengan biaya admin jika ada biaya admin.
+    - Kode Unik : Otomatis terisi.
+    - Total : Otomatis terisi, namun dapat di ubah.
+    - Saldo : Isi dengan jumlah saldo yang akan di dapat oleh member.
+    - Status : Dapat diisi sebagai berikut.
+
+      *Pending : TopUp belum dibayar / menunggu pembayaran
+
+      *Success : TopUp telah berhasil diproses
+
+      *Canceled : TopUp gagal diproses
+    - Tipe Pembayaran : Otomatis terisi.
+    - Data Pembayaran : Otomatis terisi.
+4. Jika sudah klik "Simpan".
+  </Tab>
+  <Tab title="Hapus Saldo">
+1. Klik menu "Isi Saldo" pada menu admin.
+2. Klik icon "Sampah" pada kolom data saldo yang ingin di hapus.
+3. Klik "Tetap Hapus".
+4. Jika data berhasil di hapus, maka akan muncul pemberitahuan seperti berikut.
+  </Tab>
+</Tabs>
+
+
+#### Kelola Pengguna
+
+Menu Pengguna merupakan menu untuk mengelola akun pegguna atau member di website kamu. Pada menu ini kamu dapat mengelola akun member seperti edit member & hapus.
+
+Berikut langkah untuk mengelola akun admin : 
+
+<Tabs>
+  <Tab title="Tambah Member">
+1. Klik "Pengguna" pada menu admin.
+2. Klik "Edit" pada data akun member yang ingin di edit. 
+3. Silahkan adit data sebagai berikut : 
+    - Username : Defaut (Tidak dapat di ganti atau edit).
+    - Nomor Whatsapp : Default (Tidak dapat di ganti atau edit).
+    - Saldo : Isi dengan saldo member jika ada, jika tidak ada isi dengan 0.
+    - Level : Silahkan pilih level sebagai berikut.
+
+      *Member : Jika pengguna hanya mendaftar sebagai member di website kamu.
+
+      *Admin : Jika pengguna ingin menjadi administrator di website kamu
+    - Status : Pilih "On" jika member masih aktif. Pilih "Off" jika member telah tidak aktif.
+    - Verifikasi : Pilih "Terverifikasi" jika akun member telah melakukan verifikasi OTP. Pilih "Belum Verifikasi" jika akun belum melakukan verifikasi OTP.
+4. Jika sudah klik "Simpan".
+5. Jika data berhasih tersimpan, maka akan muncul pemberitahuan seperti berikut.
+  </Tab>
+  <Tab title="Hapus Member">
+1. Klik "Pengguna" pada menu admin.
+2. Klik icon sampah pada data akun member yang ingin di hapus seperti berikut. 
+3. Klik "Tetap Hapus".
+4. Jika data berhasil di hapus, maka akan muncul pemberitahuan seperti berikut.
+  </Tab>
+</Tabs>
+
+
+#### Kelola Admin
+
+Untuk mengelola akun admin di website kamu, kamu dapat melakukannya pada menu Pengguna.
+
+Berikut langkah untuk mengelola akun admin : 
+
+1. Klik "Pengguna" pada menu admin.
+2. Klik "Edit" pada data akun member yang ingin di edit. 
+3. Pada form edit pengguna, silahkan ubah level menjadi Admin.
+4. Jika sudah klik "Simpan".
+5. Jika data berhasih tersimpan, maka akan muncul pemberitahuan seperti berikut.
+
+
+#### Transaksi Guest
+
+Transaksi Guest merupakan transaksi yang dapat dilakukan oleh pengguna tanpa harus login website.
+
+Berikut langkah untuk transaksi guest : 
+
+1. Pada halaman utama, silahkan pilih games yang ingin di TopUp. Contoh : Games Mobile.
+2. Silahkan lengkapi data kamu sebagai berikut.
+
+    ***ID Player**
+
+    1. Masukkan ID Player kamu.
+
+    2. Masukkan Server ID.
+
+    3. Jika sudah silahkan klik "Cek Nickname".
+
+    ***Pilih Nominal**
+
+    1. Pilih nominal item yang ingin kamu topup.
+
+    2. Jika sudah, klik "Selanjutnya".
+
+    ***Metode Pembayaran**
+
+    1. Pilih metode pembayaran yang ingin kamu gunakan.
+
+    ***Kode Voucher**
+
+    1. Masukkan kode voucher jika ada. Jika tidak ada, tudak perlu diisi.
+    
+    2. Jika sudah, klik "Konfirmasi".
+
+3. Jika sudah, maka akan muncul detail pesanan yang telah kamu buat.
+4. Langkah selanjutnya, silahkan tranfer ke rekening yang tertera sesuai dengan jumlah total pembayaran. Pesanan mu akan segera di proses.
+
+
+#### Cek Pesanan Guest
+
+Untuk mengecek pesanan atau riwayat pembelian kamu, kamu dapat melakukan cara berikut : 
+
+1. Pada menu halaman utama silahkan klik menu "Cek Pesanan".
+2. Silahkan masukkan nomor transaksi atau nomor pesanan kamu.
+3. Jika sudah, silahkan klik "Cek Pesanan".
+
+
+#### Daftar Member
+
+Untuk daftar sebagai member dapat dilakukan dengan cara berikut : 
+
+1. Pada menu halaman awal silahkan klik menu "Login Area".
+2. Kemudian klik "daftar sekarang".
+3. Silahkan daftar akun kamu sebagai berikut : 
+    - Username : silahkan isi dengan username yang kamu inginkan.
+    - No. Whatsapp : Isi dengan nomor whatsapp kamu.
+    - Password : Isi dengan password kamu.
+    - Ulangi Password.
+4. Jika sudah, klik "Register".
+
+
+
+#### Login Sebagai Member
+
+Untuk login sebagai member dapat dilakukan dengan cara berikut : 
+
+1. Pada menu halaman awal silahkan klik menu "Login Area".
+2. Masukkan Username & Password kamu.
+3. Kemudian klik "Login".
+
+
+#### Lupa Password Member
+
+Untuk mengatasi lupa password, member dapat melakukan langkah sebagai berikut : 
+
+1. Pada menu halaman awal silahkan klik menu "Login Area".
+2. Pada kolom login, silahkan klik "Lupa Password?" seperti berikut.
+3. Silahkan reset password kamu sebagai berikut : 
+    - Username : Silahkan isi dengan username kamu.
+    - Kode OTP : Masukkan kode OTP
+    - Password Baru : Isi dengan password baru yang kamu inginkan.
+4. Jika sudah, klik "Reset Password".
+
+
+#### Transaksi Member
+
+Transaksi Member merupakan transaksi yang dapat dilakukan oleh pengguna atau member setelah melakukan login.
+
+Berikut langkah untuk transaksi member : 
+
+1. Pada halaman utama, silahkan pilih games yang ingin di TopUp. Contoh : Games Mobile.
+2. Silahkan lengkapi data kamu sebagai berikut.
+
+    ***ID Player**
+
+    1. Masukkan ID Player kamu.
+
+    2. Masukkan Server ID.
+
+    3. Jika sudah silahkan klik "Cek Nickname".
+
+    ***Pilih Nominal**
+
+    1. Pilih nominal item yang ingin kamu topup.
+
+    2. Jika sudah, klik "Selanjutnya".
+
+    ***Metode Pembayaran**
+
+    1. Pilih metode pembayaran yang ingin kamu gunakan.
+
+    ***Kode Voucher**
+
+    1. Masukkan kode voucher jika ada. Jika tidak ada, tudak perlu diisi.
+    
+    2. Jika sudah, klik "Konfirmasi".
+
+3. Jika sudah, maka akan muncul detail pesanan yang telah kamu buat.
+4. Langkah selanjutnya, silahkan tranfer ke rekening yang tertera sesuai dengan jumlah total pembayaran. Pesanan mu akan segera di proses.
+
+
+#### Cek Pesanan Member
+
+Untuk mengecek pesanan atau riwayat pembelian kamu, kamu dapat melakukan cara berikut : 
+
+<Tabs>
+  <Tab title="Cara 1">
+Cara pertama dapat melakukan cek pesanan melalui menu utama seperti berikut : 
+1. Pada menu halaman utama silahkan klik menu "Cek Pesanan".
+2. Silahkan masukkan nomor transaksi atau nomor pesanan kamu.
+3. Jika sudah, silahkan klik "Cek Pesanan".
+  </Tab>
+  <Tab title="Cara 2">
+Cara kedua dapat melakukan cek pesanan melalui menu pada profile akun kamu seperti berikut : 
+1. Pada menu halaman utama silahkan klik menu "Akun Saya" pada pojok kanan atas seperti berikut.
+2. Klik menu "Pesanan Saya".
+3. Kemudian cari id pesanan kamu pada kolom pencarian.
+4. Jika kamu ingin melihat detail pesanan kamu, kamu dapat klik nomor id pesanan di sebelah kiri nama produk,
+5. Jika sudah maka akan muncul detail pesanan seperti berikut.
+  </Tab>
+</Tabs>
+
+
+#### 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
