@@ -60,15 +60,15 @@
     {
       "group": "Dokumentasi",
       "pages": [
-        "dokumentasi/seagame",
-        "dokumentasi/endgames",
-        "dokumentasi/opiion",
-        "dokumentasi/gamesq",
-        "dokumentasi/vigames",
-        "dokumentasi/valorant",
-        "dokumentasi/boostml",
-        "dokumentasi/xypanel",
-        "dokumentasi/mgames"
+        "dokumentasi-website/seagame",
+        "dokumentasi-website/endgames",
+        "dokumentasi-website/opiion",
+        "dokumentasi-website/gamesq",
+        "dokumentasi-website/vigames",
+        "dokumentasi-website/valorant",
+        "dokumentasi-website/boostml",
+        "dokumentasi-website/xypanel",
+        "dokumentasi-website/mgames"
       ]
     },
     {
